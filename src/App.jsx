@@ -8,9 +8,9 @@ export const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Top} />
-        <Route exact path="/Search" component={Search} />
-        <Route exact path="/Watch" component={Watch} />
+        <Route exact path="/react-tube/" component={Top} />
+        <Route exact path="/react-tube/Search" component={Search} />
+        <Route exact path="/react-tube/Watch" component={Watch} />
       </Switch>
     </Router>
   )
