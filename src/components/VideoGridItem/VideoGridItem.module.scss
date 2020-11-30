@@ -7,8 +7,8 @@
         width: 45%;
         magin: 1rem 2.5%;
     }
-    @media screen and (max-width: 560px) {
-        width: 90%;
+    @media screen and (max-width: 480px) {
+        width: 100%;
         magin: 1rem auto;
     }
 
@@ -18,5 +18,9 @@
 
     span {
         color: black;
+    }
+
+    div {
+        text-align: center;
     }
 }
