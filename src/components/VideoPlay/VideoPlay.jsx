@@ -5,7 +5,7 @@ import Style from './VideoPlay.module.scss';
 export const VideoPlay = ({id}) => {
     return (
         <div　className={Style.wrap}>
-            <Youtube className={Style.video} videoId={id} />
+            <Youtube className={Style.video} videoId={id} onReady={(event) => event.target.playVideo()} />
         </div>
     )
 }
