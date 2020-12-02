@@ -5,6 +5,10 @@
 
     img {
         width: 50%;
+
+        @media screen and (max-width: 560px) {
+            width: 100%;
+        }
     }
 
     .info {
@@ -12,6 +16,11 @@
         width: 46%;
         padding: 2%;
         vertical-align: top;
+
+        @media screen and (max-width: 560px) {
+            width: 100%;
+            padding: 0;
+        }
     }
 
     span {
