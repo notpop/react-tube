@@ -37,7 +37,7 @@ export const Search = () => {
                                 title={search.snippet.title}
                             />
                         )
-                    }) : (<span>no data</span>)
+                    }) : (<span>now loading...</span>)
                 }
             </VideoGrid>
         </Layout>

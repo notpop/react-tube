@@ -16,5 +16,5 @@ export const VideoDetail = () => {
                 <pre>{globalState.selected.snippet.description}</pre>
             </Linkify>
         </div>
-    ) : (<span>no data</span>)
+    ) : (<span>now loading...</span>)
 }

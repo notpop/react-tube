@@ -18,7 +18,7 @@ export const SideList = () => {
                             title={video.snippet.title}
                         />
                     )
-                }) : (<span>no data</span>)
+                }) : (<span>now loading...</span>)
             }
         </div>
     )
