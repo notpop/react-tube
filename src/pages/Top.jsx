@@ -26,7 +26,8 @@ export const Top = () => {
                                 id={popular.id}
                                 key={popular.id}
                                 src={popular.snippet.thumbnails.medium.url}
-                                title={popular.snippet.title} />
+                                title={popular.snippet.title}
+                            />
                         )
                     })
                 }

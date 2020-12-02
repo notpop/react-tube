@@ -1,0 +1,20 @@
+.item {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    img {
+        width: 50%;
+    }
+
+    .info {
+        display: inline-block;
+        width: 46%;
+        padding: 2%;
+        vertical-align: top;
+    }
+
+    span {
+        color: black;
+    }
+}
